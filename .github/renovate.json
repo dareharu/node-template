@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Onboarding preset for use with Dareharu's repositories."
+  "description": "Onboarding preset for use with Dareharu's repositories.",
   "extends": [
     "config:base",
     ":maintainLockFilesWeekly",
@@ -21,7 +21,7 @@
     "rangeStrategy": "bump",
     "packageRules": [
       {
-        "description": "Automerge non-major typing updates"
+        "description": "Automerge non-major typing updates",
         "matchPackagePatterns": ["^@types/"],
         "rangeStrategy": "pin",
         "automerge": true,
