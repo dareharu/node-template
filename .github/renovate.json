@@ -1,0 +1,45 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Onboarding preset for use with Dareharu's repositories."
+  "extends": [
+    "config:base",
+    ":maintainLockFilesWeekly",
+    ":rebaseStalePrs",
+    ":semanticCommits",
+    ":semanticCommitScope(deps)",
+    "helpers:pinGitHubActionDigests"
+  ],
+  "timezone": "Asia/Seoul",
+  "assignees": ["Sayakie"],
+  "dependencyDashboard": true,
+  "automergeType": "pr",
+  "prCreation": "immediate",
+  "rebaseWhen": "behind-base-branch",
+  "labels": ["dependencies"],
+  "schedule": ["before 12pm on Sunday"],
+  "npm": {
+    "rangeStrategy": "bump",
+    "packageRules": [
+      {
+        "description": "Automerge non-major typing updates"
+        "matchPackagePatterns": ["^@types/"],
+        "rangeStrategy": "pin",
+        "automerge": true,
+        "major": {
+          "automerge": false
+        }
+      },
+      {
+        "groupName": "EPS",
+        "depTypeList": ["devDependencies"],
+        "matchPackageNames": ["eslint", "prettier", "pretty-quick", "@sapphire/ts-config"],
+        "matchPackagePatterns": ["^eslint-", "^@typescript-eslint/"],
+        "automerge": true,
+        "automergeStrategy": "squash",
+        "major": {
+          "automerge": false
+        }
+      }
+    ]
+  }
+}
