@@ -16,14 +16,15 @@
   "prCreation": "immediate",
   "rebaseWhen": "behind-base-branch",
   "labels": ["dependencies"],
-  "schedule": ["before 12pm on Sunday"],
+  "schedule": ["before 12pm on Sunday and Wednesday"],
   "npm": {
     "rangeStrategy": "bump",
+    "platformAutomerge": true,
+    "platformCommit": true,
     "packageRules": [
       {
         "description": "Automerge non-major typing updates",
         "matchPackagePatterns": ["^@types/"],
-        "rangeStrategy": "pin",
         "automerge": true,
         "major": {
           "automerge": false
@@ -35,6 +36,7 @@
         "matchPackageNames": ["eslint", "prettier", "pretty-quick", "@sapphire/ts-config"],
         "matchPackagePatterns": ["^eslint-", "^@typescript-eslint/"],
         "automerge": true,
+        "automergeType": "pr",
         "automergeStrategy": "squash",
         "major": {
           "automerge": false
