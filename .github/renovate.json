@@ -7,14 +7,13 @@
     ":rebaseStalePrs",
     ":semanticCommits",
     ":semanticCommitScope(deps)",
+    ":disableDependencyDashboard",
     "helpers:pinGitHubActionDigests"
   ],
   "timezone": "Asia/Seoul",
   "assignees": ["Sayakie"],
-  "dependencyDashboard": true,
   "automergeType": "pr",
   "prCreation": "immediate",
-  "rebaseWhen": "behind-base-branch",
   "labels": ["dependencies"],
   "schedule": ["before 12pm on Sunday and Wednesday"],
   "npm": {
