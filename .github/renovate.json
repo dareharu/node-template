@@ -10,6 +10,7 @@
     ":disableDependencyDashboard",
     "helpers:pinGitHubActionDigests"
   ],
+  "requiredStatusChecks": null,
   "timezone": "Asia/Seoul",
   "assignees": ["Sayakie"],
   "automergeType": "pr",
