@@ -26,7 +26,7 @@ specifiers:
   typedoc: ^0.23.10
   typedoc-plugin-mdn-links: ^2.0.0
   typescript: ^4.7.4
-  vitest: ^0.21.1
+  vitest: ^0.22.0
 
 dependencies:
   tslib: 2.4.0
@@ -56,7 +56,7 @@ devDependencies:
   typedoc: 0.23.10_typescript@4.7.4
   typedoc-plugin-mdn-links: 2.0.0_typedoc@0.23.10
   typescript: 4.7.4
-  vitest: 0.21.1_@vitest+ui@0.21.1
+  vitest: 0.22.0_@vitest+ui@0.21.1
 
 packages:
 
@@ -3666,15 +3666,14 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.21.1_@vitest+ui@0.21.1:
-    resolution: {integrity: sha512-WBIxuFmIDPuK47GO6Lu9eNeRMqHj/FWL3dk73OHH3eyPPWPiu+UB3QHLkLK2PEggCqJW4FaWoWg8R68S7p9+9Q==}
+  /vitest/0.22.0_@vitest+ui@0.21.1:
+    resolution: {integrity: sha512-BSIro/QOHLaQY08FHwT6THWhqLQ+VPU+N4Rdo4pcP+16XB6oLmNNAXGcSh/MOLUhfUy+mqCwx7AyKmU7Ms5R+g==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
       '@edge-runtime/vm': '*'
       '@vitest/browser': '*'
       '@vitest/ui': '*'
-      c8: '*'
       happy-dom: '*'
       jsdom: '*'
     peerDependenciesMeta:
@@ -3683,8 +3682,6 @@ packages:
       '@vitest/browser':
         optional: true
       '@vitest/ui':
-        optional: true
-      c8:
         optional: true
       happy-dom:
         optional: true
