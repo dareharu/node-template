@@ -39,7 +39,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install .github/husky"
   },
-  "packageManager": "pnpm@^8.15.1",
+  "packageManager": "pnpm@^8.15.3",
   "publishConfig": {
     "access": "public"
   },
@@ -55,7 +55,7 @@
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-angular": "^17.8.1",
     "@sapphire/ts-config": "^3.3.4",
-    "@types/node": "^20.11.17",
+    "@types/node": "^20.11.19",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@typescript-eslint/parser": "^6.21.0",
     "@vitest/ui": "^0.34.7",
