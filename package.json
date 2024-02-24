@@ -39,7 +39,7 @@
     "preinstall": "npx only-allow pnpm",
     "prepare": "is-ci || husky install .github/husky"
   },
-  "packageManager": "pnpm@^8.15.3",
+  "packageManager": "pnpm@^8.15.4",
   "publishConfig": {
     "access": "public"
   },
@@ -55,12 +55,12 @@
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-angular": "^17.8.1",
     "@sapphire/ts-config": "^5.0.0",
-    "@types/node": "^20.11.19",
-    "@typescript-eslint/eslint-plugin": "^7.0.1",
-    "@typescript-eslint/parser": "^7.0.1",
+    "@types/node": "^20.11.20",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
     "@vitest/ui": "^0.34.7",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "eslint-config-prettier": "^8.10.0",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-import": "^2.29.1",
