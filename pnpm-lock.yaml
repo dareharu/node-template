@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^17.8.1
     version: 17.8.1
   '@sapphire/ts-config':
-    specifier: ^5.0.0
-    version: 5.0.0
+    specifier: ^5.0.1
+    version: 5.0.1
   '@types/node':
     specifier: ^20.11.28
     version: 20.11.28
@@ -773,8 +773,8 @@ packages:
     dev: true
     optional: true
 
-  /@sapphire/ts-config@5.0.0:
-    resolution: {integrity: sha512-E4JfpCK/OxaH8lYEP0+xbRUeIBanEOkA5IUtvj+Uib2TG2p7H0Sb1mF1fpmf0ICyDaOu9/201Il/ymV3cr/isw==}
+  /@sapphire/ts-config@5.0.1:
+    resolution: {integrity: sha512-86YBYNBDNs6/bCrTsv274553v43Bz8YljfrrIQ4N8ll2npUxbf6cpC0gjfJY+FMa1HwKUgoMF4lvhzY0Ph0smw==}
     engines: {node: '>=v16.0.0', npm: '>=8.0.0'}
     dependencies:
       tslib: 2.6.2
