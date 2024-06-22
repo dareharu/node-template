@@ -55,9 +55,9 @@
     "@commitlint/cli": "^17.8.1",
     "@commitlint/config-angular": "^17.8.1",
     "@sapphire/ts-config": "^5.0.1",
-    "@types/node": "^20.14.2",
-    "@typescript-eslint/eslint-plugin": "^7.13.0",
-    "@typescript-eslint/parser": "^7.13.0",
+    "@types/node": "^20.14.8",
+    "@typescript-eslint/eslint-plugin": "^7.13.1",
+    "@typescript-eslint/parser": "^7.13.1",
     "@vitest/ui": "^0.34.7",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.57.0",
@@ -73,9 +73,9 @@
     "lint-staged": "^15.2.7",
     "prettier": "^2.8.8",
     "pretty-quick": "^4.0.0",
-    "typedoc": "^0.25.13",
-    "typedoc-plugin-mdn-links": "^3.1.30",
-    "typescript": "^5.4.5",
+    "typedoc": "^0.26.0",
+    "typedoc-plugin-mdn-links": "^3.2.0",
+    "typescript": "^5.5.2",
     "vitest": "^0.34.6"
   }
 }
