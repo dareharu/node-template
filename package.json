@@ -73,8 +73,8 @@
     "lint-staged": "^15.2.7",
     "prettier": "^2.8.8",
     "pretty-quick": "^4.0.0",
-    "typedoc": "^0.26.0",
-    "typedoc-plugin-mdn-links": "^3.2.0",
+    "typedoc": "^0.26.1",
+    "typedoc-plugin-mdn-links": "^3.2.1",
     "typescript": "^5.5.2",
     "vitest": "^0.34.6"
   }
