@@ -74,11 +74,11 @@ devDependencies:
     specifier: ^4.0.0
     version: 4.0.0(prettier@2.8.8)
   typedoc:
-    specifier: ^0.26.0
-    version: 0.26.0(typescript@5.5.2)
+    specifier: ^0.26.1
+    version: 0.26.1(typescript@5.5.2)
   typedoc-plugin-mdn-links:
-    specifier: ^3.2.0
-    version: 3.2.0(typedoc@0.26.0)
+    specifier: ^3.2.1
+    version: 3.2.1(typedoc@0.26.1)
   typescript:
     specifier: ^5.5.2
     version: 5.5.2
@@ -1344,6 +1344,7 @@ packages:
   /callsites@3.1.0:
     resolution: {integrity: sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dev: true
 
   /camelcase-keys@6.2.2:
@@ -3558,6 +3559,7 @@ packages:
   /parent-module@1.0.1:
     resolution: {integrity: sha512-GQ2EWRpQV8/o+Aw8YqtfZZPfNRWZYkbidE9k5rpl/hC3vtHHBfGm2Ifi6qWV+coDGkrUKZAxE3Lot5kcsRlh+g==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dependencies:
       callsites: 3.1.0
     dev: true
@@ -3708,6 +3710,7 @@ packages:
   /punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
+    requiresBuild: true
     dev: true
 
   /queue-microtask@1.2.3:
@@ -3801,6 +3804,7 @@ packages:
   /resolve-from@4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==}
     engines: {node: '>=4'}
+    requiresBuild: true
     dev: true
 
   /resolve-from@5.0.0:
@@ -4402,16 +4406,16 @@ packages:
       possible-typed-array-names: 1.0.0
     dev: true
 
-  /typedoc-plugin-mdn-links@3.2.0(typedoc@0.26.0):
-    resolution: {integrity: sha512-6q/FvPwiBukjgGG8SfBNTkBuT7Vv089NUdB0fwdCtIiCgpT88kLnV4obS4aqFxV/Wq96Ju4IJcngjFYnEsJ8aA==}
+  /typedoc-plugin-mdn-links@3.2.1(typedoc@0.26.1):
+    resolution: {integrity: sha512-l76VJKKhOxCYXnb16aV6nAQG5JCsuStqviNFmgzhS9dW73nqm3/1MO9497+0KlDTOPO3o+R2uVXq87d2cDy/hg==}
     peerDependencies:
       typedoc: '>= 0.23.14 || 0.24.x || 0.25.x || 0.26.x'
     dependencies:
-      typedoc: 0.26.0(typescript@5.5.2)
+      typedoc: 0.26.1(typescript@5.5.2)
     dev: true
 
-  /typedoc@0.26.0(typescript@5.5.2):
-    resolution: {integrity: sha512-OcYevjHsMN8DfpaL0dSBGAEBhOxuBB5Au8QVs9oz9iB0kRStPZwXLFWqh9gwbMUxNjW3yQuIM5GrVVauMJ2Akw==}
+  /typedoc@0.26.1(typescript@5.5.2):
+    resolution: {integrity: sha512-APsVXqh93jTlpkLuw6+/IORx7n5LN8hzJV8nvMIrYYaIva0VCq0CoDN7Z3hsRThEYVExI/qoFHnAAxrhG+Wd7Q==}
     engines: {node: '>= 18'}
     hasBin: true
     peerDependencies:
