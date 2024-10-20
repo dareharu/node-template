@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^4.2.1
     version: 4.2.1(eslint-config-prettier@8.10.0)(eslint@8.57.1)(prettier@2.8.8)
   eslint-plugin-simple-import-sort:
-    specifier: ^8.0.0
-    version: 8.0.0(eslint@8.57.1)
+    specifier: ^12.1.1
+    version: 12.1.1(eslint@8.57.1)
   eslint-plugin-sort-keys-fix:
     specifier: ^1.1.2
     version: 1.1.2
@@ -2191,8 +2191,8 @@ packages:
       prettier-linter-helpers: 1.0.0
     dev: true
 
-  /eslint-plugin-simple-import-sort@8.0.0(eslint@8.57.1):
-    resolution: {integrity: sha512-bXgJQ+lqhtQBCuWY/FUWdB27j4+lqcvXv5rUARkzbeWLwea+S5eBZEQrhnO+WgX3ZoJHVj0cn943iyXwByHHQw==}
+  /eslint-plugin-simple-import-sort@12.1.1(eslint@8.57.1):
+    resolution: {integrity: sha512-6nuzu4xwQtE3332Uz0to+TxDQYRLTKRESSc2hefVT48Zc8JthmN23Gx9lnYhu0FtkRSL1oxny3kJ2aveVhmOVA==}
     peerDependencies:
       eslint: '>=5.0.0'
     dependencies:
