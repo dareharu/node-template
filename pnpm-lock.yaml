@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^0.28.5
     version: 0.28.5(typescript@5.8.3)
   typedoc-plugin-mdn-links:
-    specifier: ^3.3.8
-    version: 3.3.8(typedoc@0.28.5)
+    specifier: ^5.0.2
+    version: 5.0.2(typedoc@0.28.5)
   typescript:
     specifier: ^5.8.3
     version: 5.8.3
@@ -4713,10 +4713,10 @@ packages:
       reflect.getprototypeof: 1.0.10
     dev: true
 
-  /typedoc-plugin-mdn-links@3.3.8(typedoc@0.28.5):
-    resolution: {integrity: sha512-Aewg+SW7hBdffRpT6WnpRwWthoaF9irlzXDKRyvcDVekPZSFujOlh690SV6eCgqrtP7GBJmN0TVeJUq6+6rb1w==}
+  /typedoc-plugin-mdn-links@5.0.2(typedoc@0.28.5):
+    resolution: {integrity: sha512-Bd3lsVWPSpDkn6NGZyPHpcK088PUvH4SRq4RD97OjA6l8PQA3yOnJhGACtjmIDdcenRTgWUosH+55ANZhx/wkw==}
     peerDependencies:
-      typedoc: '>= 0.23.14 || 0.24.x || 0.25.x || 0.26.x'
+      typedoc: 0.27.x || 0.28.x
     dependencies:
       typedoc: 0.28.5(typescript@5.8.3)
     dev: true
